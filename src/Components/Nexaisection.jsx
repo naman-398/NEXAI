@@ -2,13 +2,16 @@ import React from 'react'
 import nexaiimg1 from "../Assets/Images/nexaiimg1.png";
 import Footersection from './Footersection';
 import Readysection from './Readysection';
-import elipse6 from  "../Assets/Images/elipse1.webp";
-import elipse7 from  "../Assets/Images/elipse2.webp";
-import elipse8 from  "../Assets/Images/elipse3.webp";
-import elipse9 from  "../Assets/Images/slider3.webp";
+import elipse6 from "../Assets/Images/elipse1.webp";
+import elipse7 from "../Assets/Images/elipse2.webp";
+import elipse8 from "../Assets/Images/elipse3.webp";
+import elipse9 from "../Assets/Images/slider3.webp";
+import Whatsection from './Whatsection';
 const Nexaisection = () => {
   return (
-    <div className=' overflow-hidden relative' >
+    <div className=' overflow-hidden'>
+      <Whatsection/>
+    <div className='relative' >
       <img src={elipse6} alt="elispe6" className=' absolute right-0 top-[3%] z-[1]animate-pulse ' />
       <img src={elipse6} alt="elispe6" className=' absolute right-0 bottom-[32%] z-[1] animate-pulse' />
       <img src={elipse7} alt="elispe6" className=' absolute left-0 top-[-12%] z-[0] animate-pulse' />
@@ -34,7 +37,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4" data-aos="zoom-in-up">
                       Purchasing Nexai Products
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] " data-aos="zoom-in-up">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] " data-aos="zoom-in-up">
                       Nex AI tokens will be the primary currency for acquiring
                       Nexai's extensive range of software solutions, hardware
                       devices, including drones and sensors, and other smart home
@@ -49,7 +52,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4" data-aos="zoom-in-up">
                       Accessing Exclusive Content{" "}
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] " data-aos="zoom-in-up">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] " data-aos="zoom-in-up">
                       By holding Nex AI tokens, users will gain privileged access
                       to exclusive content within the Nexai platform. These tokens
                       will unlock premium features, advanced functionalities, and
@@ -63,7 +66,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4">
                       Loyalty and Rewards{" "}
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
                       The Nexai ecosystem will feature a robust loyalty program,
                       rewarding users with Nex AI tokens for their active
                       engagement, ongoing participation, and dedicated usage of
@@ -80,7 +83,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4">
                       Participating in Governance{" "}
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
                       Nex AI token holders will play a vital role in the
                       governance of the Nexai ecosystem. Through voting
                       mechanisms, token holders will have a direct say in the
@@ -96,7 +99,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4">
                       Peer-to-Peer Transactions{" "}
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
                       Nex AI tokens will enable seamless peer-to-peer transactions
                       within the Nexai community. Users will have the ability to
                       exchange tokens with others for various purposes, such as
@@ -112,7 +115,7 @@ const Nexaisection = () => {
                     <p className="text-base 576:text-[18px] 992:text-[24px] font-bold Recharge leading-[31px] text-white mb-1 992:mb-2 lg:mb-4">
                       Token Staking and Rewards{" "}
                     </p>
-                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
+                    <p className="text-[14px] 992:text-base font-normal font-poppins leading-[normal] 992:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-[15px] 992:mb-6 lg:mb-[60px] ">
                       Nex AI tokens will support staking mechanisms, allowing
                       users to lock up their tokens for a specified period. By
                       staking their tokens, users will earn additional rewards,
@@ -127,10 +130,10 @@ const Nexaisection = () => {
           </div>
         </div>
       </div>
-      <Readysection/>
-      <Footersection/>
+      <Readysection />
+      <Footersection />
     </div>
-
+    </div>
   )
 }
 

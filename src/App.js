@@ -3,9 +3,6 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Herosection from './Components/Herosection';
-import Aipowereded from './Components/Aipowereded';
-import Uniquesection from './Components/Uniquesection';
-import Whatsection from './Components/Whatsection';
 import Nexaisection from './Components/Nexaisection';
 import Blockchainslider from './Components/Blockchainslider';
 import { useEffect } from 'react';
@@ -19,14 +16,14 @@ function App() {
     );
   }, [])
   return (
-   <div className='  bg-[#040606]'>
+    <div className=' bg-[#040606]'>
+   <div className='  bg-[#040606] max-w-[1920px] mx-auto'>
     <Loadersection/>
     <Backtotop/>
     <Herosection/>
-    <Uniquesection/>
     <Blockchainslider/>
-    <Whatsection/>
     <Nexaisection/>
+   </div>
    </div>
   );
 }
