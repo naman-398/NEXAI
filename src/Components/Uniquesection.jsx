@@ -3,7 +3,7 @@ import { S3svg1, S3svg2, S3svg3, S3svg4 } from '../commonsvg/Icon'
 import s3elipse1 from "../Assets/Images/s3elipse1.png";
 const Uniquesection = () => {
     return (
-        <div className=' 576:pt-[60px] md:pt-[120px] 992:pt-[192px]'>
+        <div className='   pt-[45px]  '>
             <div className=' max-w-[1364px] px-3 mx-auto'>
                 <div className=' max-w-[1340px] mx-auto border-[1px] border-[#FCFCFC] border-solid rounded-[32px] bg-[url(../src/Assets/Images/s3bg.webp)] hover:shadow-[inset_0px_0px_20px_#02CDCF80] cursor-pointer hover:border-[#02CDCF80] duration-300 bg-cover bg-no-repeat bg-center p-[25px_25px_0_25px] 576:p-[80px_40px_0_40px] 992:p-[80px_100px_0_100px] bg-[#ffffff0a] relative '>
     <img src={s3elipse1} alt="s3"  className=' absolute top-[50%] translate-x-[-50%] translate-y-[-32%] left-[50%] rounded-full max-w-[330px] max-h-[335px] md:max-w-[406px] md:max-h-[410px] w-full h-full z-0 s3elipse'/>

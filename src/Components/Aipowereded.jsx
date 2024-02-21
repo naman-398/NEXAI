@@ -6,7 +6,7 @@ import s2elispe1 from "../Assets/Images/s2elipse1.webp";
 const Aipowereded = () => {
     return (
 
-        <div className=' 576:pt-[60px] md:pt-[80px] 992:pt-[156px] relative  pb-[45px] ' id='feature'>
+        <div className=' 576:pt-[60px] md:pt-[80px] 992:pt-[156px] relative 576:pb-[60px] md:pb-[120px] 992:pb-[192px] ' id='feature'>
             <img src={s2elispe2} alt="s2" className=' absolute right-0 top-[0] md:top-[-70%] 992:top-[-25%] z-0 elipse animate-pulse' />
             {/* <img src={s2elispe1} alt="" className=' absolute left-[17%] top-[15%] hidden 576:block max-w-[604px] max-h-[507px] w-full h-full z-[1]' /> */}
             <div className=' max-w-[1246px] mx-auto px-3 relative z-[1]'>
