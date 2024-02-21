@@ -6,15 +6,14 @@ import s2elispe1 from "../Assets/Images/s2elipse1.webp";
 const Aipowereded = () => {
     return (
 
-        <div className=' 576:pt-[60px] md:pt-[80px] 992:pt-[156px] relative 576:pb-[60px] md:pb-[120px] 992:pb-[192px] ' id='feature'>
+        <div className=' 576:pt-[60px] md:pt-[80px] 992:pt-[140px] relative 576:pb-[60px] md:pb-[120px] 992:pb-[192px] bg-[#050505]' id='feature'>
             <img src={s2elispe2} alt="s2" className=' absolute right-0 top-[0] md:top-[-70%] 992:top-[-25%] z-0 elipse animate-pulse' />
-            {/* <img src={s2elispe1} alt="" className=' absolute left-[17%] top-[15%] hidden 576:block max-w-[604px] max-h-[507px] w-full h-full z-[1]' /> */}
             <div className=' max-w-[1246px] mx-auto px-3 relative z-[1]'>
                 <div className=' flex flex-wrap flex-row -mx-3 items-center'>
                     <div className=' w-full md:w-1/2 px-3 relative z-[1]' data-aos="zoom-in-up">
 <div className=' relative'>
                         <img src={s2img} alt="s2img" className=' max-w-[612px] w-full relative z-[0] me-auto' />
-                        <div className='  absolute left-[17%] sm:left-[31%] z-[-1] top-[24%] max-w-[231px] w-full max-h-[231px] h-full blur-[227px] rounded-[231px] bg-[#02CDCF]'></div></div>
+                        <div className='  absolute left-[17%] sm:left-[31%] z-[-1] top-[24%] max-w-[231px] w-full max-h-[231px] h-full blur-[150px] rounded-[231px] bg-[#02CDCF]'></div></div>
                     </div>
                     <div className=' w-full md:w-1/2 px-3 pt-[20px] md:pt-0'>
                         <div className=' max-w-[517px] mx-auto'>
