@@ -5,17 +5,17 @@
 @layer components {
   @font-face {
     font-family: "'Recharge', sans-serif";
-    src: url("../src/Assets/font_family/recharge/recharge\ bd.otf")
-}
+    src: url("../src/Assets/font_family/recharge/recharge\ bd.otf");
+  }
   @font-face {
     font-family: "'neuopolitical', sans-serif";
-    src: url("../src/Assets/font_family/neuropolitical/neuropolitical\ rg.otf")
-}
+    src: url("../src/Assets/font_family/neuropolitical/neuropolitical\ rg.otf");
+  }
 
-.Recharge {
+  .Recharge {
     font-family: "'Recharge', sans-serif";
-}
-  .Neuropolitical{
-    font-family: "'neuopolitical', sans-serif" ;
+  }
+  .Neuropolitical {
+    font-family: "'neuopolitical', sans-serif";
   }
 }
