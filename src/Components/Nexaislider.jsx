@@ -168,7 +168,7 @@ const Nexaislider = () => {
   };
   return (
     <div id='about' className=' pt-[45px] 576:pt-[60px] md:pt-[120px] 992:pt-[200px] relative z-[2]'>
-      <h3 className=' Recharge font-bold text-[32px] md:text-[35px] 992:text-[40px] leading-[normal] 576:leading-[50.4px] text-[#02CDCF] text-center px-3 ' data-aos="zoom-in-up">NexAi does all this. And more.</h3>
+      <h3 className=' Recharge font-bold text-[25px] 576:text-[30px] md:text-[35px] 992:text-[40px] leading-[normal] 576:leading-[50.4px] text-[#02CDCF] text-center px-3 ' data-aos="zoom-in-up">NexAi does all this. And more.</h3>
       <p className=' mb-[25px] 576:mb-[40px] md:mb-[55px] 992:mb-[90px] font-poppins text-[14px] 576:text-base leading-[normal] 576:leading-[20px] 992:leading-[25.6px] mt-[6px] 992:mt-[16px] max-w-[912px] !opacity-70 mx-auto text-[#FFF] text-center px-3' data-aos="zoom-in-up">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
 
       <Slider {...settings} className=' threeslider'>

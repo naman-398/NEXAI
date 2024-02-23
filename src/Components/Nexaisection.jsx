@@ -20,7 +20,7 @@ const Nexaisection = () => {
       <img src={elipse9} alt="elispe6" className=' absolute right-0 bottom-[-10%] z-[0] animate-pulse hidden 1200:block' />
       <div id="token" className=' relative z-[2]'>
         <div className=" container mx-auto max-w-[1264px] px-3 pt-[60px] md:mt-[100px]">
-          <p className="text-[30px] sm:text-[40px] leading-[normal] font-bold Recharge text-[#2dcdcf] text-center mb-4 md:mb-[47px]" data-aos="zoom-in-up">
+          <p className=" text-[25px] 576:text-[30px]  992:text-[40px] leading-[normal] font-bold Recharge text-[#2dcdcf] text-center mb-4 md:mb-[47px]" data-aos="zoom-in-up">
             NexAI Token & utility{" "}
           </p>
           <div className="flex flex-row  items-center justify-center flex-wrap pt-[40px]  -mx-3 ">

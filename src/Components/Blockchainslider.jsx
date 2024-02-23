@@ -94,9 +94,9 @@ const Blockchainslider = () => {
       <img src={elipse3} alt="elipse" className=' absolute right-0 top-[30%] z-0 animate-pulse' />
       <img src={elipse4} alt="elipse" className=' absolute right-0 top-[2%] z-[1] animate-pulse' />
       <img src={elipse5} alt="elipse" className=' absolute left-0 top-[48%] z-[1] animate-pulse' />
-      <h3 className=' Recharge font-bold text-[32px] md:text-[35px] 992:text-[40px] leading-[normal] 576:leading-[50.4px] text-[#02CDCF] text-center ' data-aos="zoom-in-up">Blockchain & AI technology</h3>
+      <h3 className=' Recharge font-bold text-[25px] 576:text-[30px] md:text-[35px] 992:text-[40px] leading-[normal] 576:leading-[50.4px] text-[#02CDCF] text-center ' data-aos="zoom-in-up">Blockchain & AI technology</h3>
       <p className=' font-poppins text-[14px] 576:text-base leading-[normal] 576:leading-[20px] 992:leading-[25.6px] mt-[6px] 992:mt-[16px] max-w-[997px] !!opacity-70 mx-auto text-[#FFF] text-center' data-aos="zoom-in-up">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
-      <h4 className=' Recharge font-bold text-[20px] 992:text-[20px] max-w-[684px] leading-[normal] 576:leading-[32px] text-[#FFF] mt-[20px] 576:mt-[30px] md:mt-[50px] 992:mt-[96px] text-center  mx-auto' data-aos="zoom-in-up">By building the software on blockchain, Nexai provides the following advantages</h4>
+      <h4 className=' Recharge font-bold text-[16px] 992:text-[20px] max-w-[684px] leading-[normal] 576:leading-[32px] text-[#FFF] mt-[20px] 576:mt-[30px] md:mt-[50px] 992:mt-[96px] text-center  mx-auto' data-aos="zoom-in-up">By building the software on blockchain, Nexai provides the following advantages</h4>
       <div className=' max-w-[1100px] 1250:max-w-[1200px] 1350:max-w-[1300px] ms-auto px-3 1250:px-0'>
 
         <Slider {...settings} className='mt-[25px] 576:mt-[60px] overflow-hidden  relative z-[1] blockchain'>
